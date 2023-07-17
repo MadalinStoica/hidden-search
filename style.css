@@ -62,6 +62,11 @@ body {
 
 
 @media screen and (max-width: 680px) {
+
+    body {
+        overflow-y: hidden;
+    }
+
   .search.active .input {
     width: 80vw;
     margin: 0 auto;
